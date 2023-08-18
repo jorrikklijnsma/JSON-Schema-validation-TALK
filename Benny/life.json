@@ -1,0 +1,50 @@
+{
+  "dates": [
+    {
+      "what": "Coffee",
+      "when": "Thursday",
+      "how": 27
+    },
+    {
+      "what": "Coffee",
+      "when": "Tuesday",
+      "how": { "happiness": "high" }
+    },
+    {
+      "what": "Coffee",
+      "when": "Monday",
+      "how": ["excited", "happy"]
+    },
+    {
+      "what": "Restaurant",
+      "when": "Tuesday",
+      "how": { "mood": "joyful" }
+    },
+    {
+      "what": "Coffee",
+      "when": "Wednesday",
+      "how": 8.9
+    },
+    {
+      "what": "Restaurant",
+      "when": "Friday",
+      "how": { "feelings": ["content", "relaxed"] }
+    },
+    {
+      "what": "Restaurant",
+      "when": "Monday",
+      "how": true
+    }
+  ],
+  "relationship": {
+    "dinner_together": 6,
+    "seat": "DOWN",
+    "cubes_stored": true,
+    "speed_cube_tournament_unix": 1445385600000,
+    "new_date": {
+      "what": "Restaurant",
+      "when": "Tuesday",
+      "how": { "mood": "joyful" }
+    }
+  }
+}

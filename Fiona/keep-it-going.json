@@ -1,0 +1,26 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "how_to_keep_it_going",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["dinner_together", "seat", "cubes_stored"],
+  "properties": {
+    "dinner_together": {
+      "type": "integer",
+      "minimum": 5,
+      "maximum": 7
+    },
+    "seat": {
+      "enum": ["UP", "DOWN"]
+    },
+    "cubes_stored": {
+      "type": "boolean"
+    },
+    "speed_cube_tournament_unix": {
+      "type": "integer"
+    },
+    "new_date": {
+      "$ref": "single-date.json"
+    }
+  }
+}

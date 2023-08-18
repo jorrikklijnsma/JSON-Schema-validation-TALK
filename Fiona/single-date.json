@@ -1,0 +1,19 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "sinlge_date",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "what": {
+      "enum": ["Restaurant", "Coffee"]
+    },
+    "when": {
+      "enum": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"]
+    },
+    "how": {
+      "not": {
+        "type": "string"
+      }
+    }
+  }
+}
