@@ -1,12 +1,10 @@
 {
   "dates": [
     {
-      "what": "Cinema", // no Restaurant or Coffee
+      "what": "Cinema",
       "when": "Thursday",
       "how": 27
-    }
-  ]
-},
+    },
     {
       "what": "Coffee",
       "when": "Tuesday",
