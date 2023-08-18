@@ -7,18 +7,17 @@
 
 export interface IsMatch {
   dates: SinlgeDate[];
-  relationship: HowToKeepItGoing;
 }
 export interface SinlgeDate {
-  what?: "Restaurant" | "Coffee";
-  when?: "Monday" | "Tuesday" | "Wednesday" | "Thursday" | "Friday";
+  what?: 'Restaurant' | 'Coffee';
+  when?: 'Monday' | 'Tuesday' | 'Wednesday' | 'Thursday' | 'Friday';
   how?: {
     [k: string]: unknown;
   };
 }
 export interface HowToKeepItGoing {
   dinner_together: number;
-  seat: "UP" | "DOWN";
+  seat: 'UP' | 'DOWN';
   cubes_stored: boolean;
   speed_cube_tournament_unix?: number;
   new_date?: SinlgeDate;
